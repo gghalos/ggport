@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Roblox scripting portfolio for Keaton, a Luau developer focused on gameplay systems, tools, and polished experiences.">
-    <title>Keaton — Roblox Scripter</title>
+    <meta name="description" content="Gooseblimp's Roblox scripting portfolio, featuring modular Luau systems, gameplay mechanics, and Studio tools.">
+    <title>gooseblimp — Roblox Scripter</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +13,12 @@
 </head>
 <body>
     <header class="site-header">
-        <a class="logo" href="#top" aria-label="Home">K<span>.</span></a>
+        <a class="logo" href="#top" aria-label="Home">gooseblimp<span>.</span></a>
 
         <nav aria-label="Main navigation">
             <a href="#work">Work</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Discord</a>
         </nav>
     </header>
 
@@ -29,20 +29,15 @@
             <h1>I build gameplay systems that feel good, scale well, and stay maintainable.</h1>
 
             <p class="hero-copy">
-                Roblox scripter focused on combat, enemy AI, data systems, developer tools,
-                and the technical details players should never have to notice.
+                Roblox scripter focused on modular architecture, combat mechanics, developer tools,
+                and systems that remain easy to edit as a project grows.
             </p>
 
             <div class="hero-actions">
                 <a class="button primary" href="#work">View my work</a>
-                <a class="button secondary" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noreferrer">
+                <a class="button secondary" href="https://github.com/gghalos" target="_blank" rel="noreferrer">
                     GitHub ↗
                 </a>
-            </div>
-
-            <div class="status">
-                <span class="status-dot"></span>
-                Available for commissions and collaborations
             </div>
         </section>
 
@@ -56,28 +51,24 @@
                 <article class="project-card featured">
                     <div class="project-topline">
                         <span>01</span>
-                        <span>Gameplay systems</span>
+                        <span>System architecture</span>
                     </div>
 
                     <div>
-                        <h3>Ascendant</h3>
+                        <h3>Modular Systems</h3>
                         <p>
-                            A soulslike Roblox RPG featuring server-authoritative combat,
-                            stamina management, enemy AI, parries, dodges, and progression systems.
+                            Experience building systems around separate, reusable modules so mechanics
+                            can be extended, replaced, balanced, and debugged without rewriting unrelated code.
+                            The goal is practical modularity: easy editing without unnecessary abstraction.
                         </p>
                     </div>
 
                     <ul class="tags" aria-label="Technologies">
+                        <li>ModuleScripts</li>
                         <li>Luau</li>
-                        <li>Combat</li>
-                        <li>Enemy AI</li>
-                        <li>DataStore</li>
+                        <li>Reusable APIs</li>
+                        <li>Maintainability</li>
                     </ul>
-
-                    <div class="project-links">
-                        <a href="https://www.roblox.com/games/YOUR-GAME-ID" target="_blank" rel="noreferrer">View game ↗</a>
-                        <a href="https://github.com/YOUR-USERNAME/ascendant" target="_blank" rel="noreferrer">Source ↗</a>
-                    </div>
                 </article>
 
                 <article class="project-card">
@@ -101,34 +92,35 @@
                     </ul>
 
                     <div class="project-links">
-                        <a href="https://create.roblox.com/store/asset/YOUR-ASSET-ID" target="_blank" rel="noreferrer">View plugin ↗</a>
-                        <a href="https://github.com/YOUR-USERNAME/bulk-import" target="_blank" rel="noreferrer">Source ↗</a>
+                        <a href="https://create.roblox.com/store/asset/124904641855731/Bulk-Import" target="_blank" rel="noreferrer">View plugin ↗</a>
                     </div>
                 </article>
 
-                <article class="project-card">
+                <article class="project-card combat-card">
                     <div class="project-topline">
                         <span>03</span>
-                        <span>Technical demo</span>
+                        <span>Combat mechanic</span>
                     </div>
 
                     <div>
-                        <h3>Combat Framework</h3>
+                        <h3>Combat Prototype</h3>
                         <p>
-                            A reusable server-authoritative combat foundation with validated
-                            hit detection, cooldowns, animation markers, and anti-exploit checks.
+                            A work-in-progress combat mechanic demonstrating the underlying scripting
+                            and gameplay behavior. The footage does not include final animations.
                         </p>
                     </div>
 
-                    <ul class="tags" aria-label="Technologies">
-                        <li>RemoteEvents</li>
-                        <li>Hitboxes</li>
-                        <li>Security</li>
-                    </ul>
+                    <video class="project-video" controls preload="metadata" playsinline>
+                        <source src="Screen Recording 2026-08-01 173334.mp4" type="video/mp4">
+                        Your browser does not support embedded video.
+                    </video>
 
-                    <div class="project-links">
-                        <a href="https://github.com/YOUR-USERNAME/combat-framework" target="_blank" rel="noreferrer">Source ↗</a>
-                    </div>
+                    <ul class="tags" aria-label="Technologies">
+                        <li>Combat</li>
+                        <li>Hit detection</li>
+                        <li>Client / server</li>
+                        <li>Prototype</li>
+                    </ul>
                 </article>
             </div>
         </section>
@@ -147,15 +139,15 @@
                 </p>
 
                 <p>
-                    My strongest areas are gameplay programming, combat, NPC behavior,
-                    persistence, UI logic, and internal Studio tools.
+                    My strongest areas are modular gameplay programming, combat,
+                    NPC behavior, persistence, UI logic, and internal Studio tools.
                 </p>
 
                 <div class="skill-list">
                     <span>Luau</span>
                     <span>Roblox Studio</span>
+                    <span>ModuleScripts</span>
                     <span>Strict typing</span>
-                    <span>Git / Rojo</span>
                     <span>DataStoreService</span>
                     <span>Pathfinding</span>
                     <span>Client-server architecture</span>
@@ -165,21 +157,14 @@
         </section>
 
         <section class="section contact-section" id="contact">
-            <p class="eyebrow">Contact</p>
-            <h2>Have a system that needs to be built properly?</h2>
-            <p>Send me the scope, timeline, and examples of the quality you expect.</p>
-
-            <div class="contact-links">
-                <a class="button primary" href="mailto:YOUR-EMAIL@example.com">Email me</a>
-                <button class="button secondary" id="copy-discord" data-discord="YOUR_DISCORD_USERNAME">
-                    Copy Discord
-                </button>
-            </div>
+            <p class="eyebrow">Discord</p>
+            <h2>gghalos</h2>
+            <p>My Discord username is shown here for reference. This page does not include a direct-message link.</p>
         </section>
     </main>
 
     <footer>
-        <p>© <span id="year"></span> Keaton.</p>
+        <p>© <span id="year"></span> gooseblimp.</p>
         <p>Built with plain HTML, CSS, and JavaScript.</p>
     </footer>
 
