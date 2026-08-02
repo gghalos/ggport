@@ -424,3 +424,20 @@ footer p {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* ---------- Project video ---------- */
+
+.project-video {
+    display: block;
+    width: 100%;
+    margin: 24px 0 4px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: #080809;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.combat-card {
+    min-height: auto;
+}
