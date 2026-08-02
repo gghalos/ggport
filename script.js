@@ -1,0 +1,19 @@
+const yearElement = document.querySelector("#year");
+const copyDiscordButton = document.querySelector("#copy-discord");
+
+yearElement.textContent = new Date().getFullYear();
+
+copyDiscordButton.addEventListener("click", async () => {
+    const username = copyDiscordButton.dataset.discord;
+
+    try {
+        await navigator.clipboard.writeText(username);
+        copyDiscordButton.textContent = "Copied";
+    } catch {
+        copyDiscordButton.textContent = username;
+    }
+
+    setTimeout(() => {
+        copyDiscordButton.textContent = "Copy Discord";
+    }, 1800);
+});
