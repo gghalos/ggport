@@ -8,7 +8,7 @@ copyDiscordButton.addEventListener("click", async () => {
 
     try {
         await navigator.clipboard.writeText(username);
-        copyDiscordButton.textContent = "Copied: gghalos";
+        copyDiscordButton.textContent = "Copied: draddev";
     } catch {
         copyDiscordButton.textContent = username;
     }
